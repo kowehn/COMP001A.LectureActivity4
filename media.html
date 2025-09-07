@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Page</title>
+</head>
+<body>
+
+    <!-- Page Header -->
+    <header>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="home.html" target="_self">Home</a></li>
+                <li><a href="tables.html" target="_self">Tables</a></li>
+                <li><a href="forms.html" target="_self">Forms</a></li>
+                <li><a href="media.html" target="_self">Media</a></li>
+            </ul>
+        </nav>
+        <!-- Page Heading -->
+        <h1>Media Playback Section</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Beginning of the audio section -->
+        <section id="audioSample">
+            <!-- Heading for the audio section -->
+            <h2>Audio with controls</h2>
+
+            <!-- The 'controls' attribute adds audio controls, like play, pause, and volume -->
+            <audio controls>
+                <!-- Source for the audio file -->
+                <!-- The 'src' attribute specifies the path to the audio file -->
+                <source src="media/welcome.mp3" type="audio/mp3">
+                <!-- Fallback content in case the audio isn't supported -->
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        <!-- End of the audio section -->
+
+        <hr>
+
+        <!-- Beginning of the video section -->
+        <section id="videoSample">
+            <!-- Heading for the video section -->
+            <h2>Video with control</h2>
+
+            <!-- The 'controls' attribute adds video controls, like play, pause, and volume -->
+            <video width="320" height="240" controls>
+                <!-- Source for the video file -->
+                <!-- The 'src' attribute specifies the path to the video file -->
+                <source src="media/sampson.mp4" type="video/mp4">
+                <!-- Fallback content in case the video isn't supported -->
+                Your browser does not support the video element.
+            </video>
+        </section>
+        <!-- End of the video section -->
+
+    </main>
+
+    <!-- Page Footer -->
+    <footer>
+        <p>&copy; 2025 Kowehn Murphy. All rights reserved.</p>
+        <a href="https://github.com/kowehn" target="_blank">Github</a>
+    </footer>
+
+</body>
+</html>
